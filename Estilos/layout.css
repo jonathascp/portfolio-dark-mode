@@ -1,0 +1,204 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+.secao {
+    padding: 80px 0;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 200;
+    padding: 20px 0;
+}
+
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.case {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    gap: 45px;
+}
+
+.cabecalho-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho-menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-cabecalho {
+    display: absolute;
+    top: 80px;
+    left: 20px;
+    border: none;
+}
+
+.lista-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-texto {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.marcas-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.marcas-conteudo-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 62px;
+}
+
+.projeto-portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.feat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 62px;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+
+.educacao-container {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding: 18px 0;
+}
+
+.certificados-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.about-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.about-texto-paragrafo {
+    font-size: 20px;
+    color: rgba(255,255,255,.7);
+    font-weight: var(--fonte-weight-200);
+}
+
+.about-texto-paragrafo  span {
+    display: block;
+    padding: 14px 0;
+}
+
+.about-botoes {
+    display: flex;
+    gap: 12px;
+}
+
+.about-botao-hire {
+    background-color: var(--cor-verde-abacate);
+    padding: 8px 24px;
+    border-radius: 24px;
+    font-weight: var(--fonte-weight-200);
+    font-size: 12px;
+    letter-spacing: .2rem;
+    color: #222;
+}
+
+.about-botao-cv {
+    background-color: var(--cor-cinza-claro);
+    padding: 8px 24px;
+    border-radius: 24px;
+    font-weight: var(--fonte-weight-200);
+    font-size: 12px;
+    letter-spacing: .2rem;
+    color: var(--cor-branco);
+}
+
+.client-container-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 55px;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.get-container {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.get-container > h3 {
+    font-weight: var(--fonte-weight-300);
+    font-size: 23px;
+    color: var(--cor-branco);
+}
+

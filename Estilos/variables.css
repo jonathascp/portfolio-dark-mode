@@ -1,0 +1,26 @@
+:root {
+    --fonte-weight-200: 200;
+    --fonte-weight-300: 300;
+    --fonte-weight-500: 500;
+    --fonte-weight-800: 800;
+    
+    --cor-cinza-claro: #9f9f9f;
+    --cor-cinza-medio: #333;
+    --cor-cinza-escuro: #222222;
+
+    --cor-branco: #ffffff;
+    --cor-verde-abacate: #bac964;
+    --cor-verde-escuro: #47493A;
+    --cor-fundo-cinza-escuro: #1A1A1A;
+    
+
+    --cor-google: #4285F4;
+    --cor-microsoft: #00A4EF;
+    --cor-apple: #aaaaaa;
+    --cor-amazon: #ff9900;
+    --cor-netflix: #E50914;
+    --cor-spotify: #1DB954;
+
+    --borda-padrao: 5px;
+
+}
