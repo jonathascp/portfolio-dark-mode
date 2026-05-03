@@ -4,6 +4,12 @@
     padding: 0 12px;
 }
 
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1380px;
+    }
+}
+
 .secao {
     padding: 80px 0;
 }
@@ -45,6 +51,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 10px;
 }
 
 .menu-cabecalho {
@@ -87,6 +94,7 @@ header {
 }
 
 .marcas-conteudo-cards {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -122,6 +130,8 @@ header {
 
 .portfolio-container {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 45px;
 }
@@ -129,16 +139,38 @@ header {
 .educacao-container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 22px;
     padding: 18px 0;
 }
 
-.certificados-container {
+@media (min-width: 1024px) {
+    .educacao-container {
+        flex-direction: row;
+        gap: 18px;
+    }
+}
+
+.educacao-container-conteudo {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 18px;
+    flex: 1 1 0;
+}
+
+
+.certificados-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 18px;
+}
+
+@media (min-width: 1024px) {
+    .certificados-container {
+        flex-direction: row;
+        justify-content: center;
+    }
 }
 
 .about-container {
@@ -148,13 +180,25 @@ header {
     gap: 12px;
 }
 
+@media (min-width: 1024px) {
+    .about-container {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1024px) {
+    .about-texto  {
+        margin: 0 40px;
+    }
+}
+
 .about-texto-paragrafo {
     font-size: 20px;
-    color: rgba(255,255,255,.7);
+    color: rgba(255, 255, 255, .7);
     font-weight: var(--fonte-weight-200);
 }
 
-.about-texto-paragrafo  span {
+.about-texto-paragrafo span {
     display: block;
     padding: 14px 0;
 }
@@ -162,6 +206,14 @@ header {
 .about-botoes {
     display: flex;
     gap: 12px;
+    padding: 18px 0;
+}
+
+@media (min-width: 1024px) {
+    .about-foto {
+        width: 700px;
+    }
+
 }
 
 .about-botao-hire {
@@ -187,6 +239,7 @@ header {
 .client-container-conteudo {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 55px;
 }
 
@@ -199,18 +252,19 @@ header {
 .blog-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 18px;
 }
 
 .get-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 55px;
 }
 
-.get-container > h3 {
+.get-container>h3 {
     font-weight: var(--fonte-weight-300);
     font-size: 23px;
     color: var(--cor-branco);
 }
-

@@ -76,6 +76,13 @@
     flex: 1 1 calc(50% - 20px);
 }
 
+@media (min-width: 1024px) {
+    .marca-card {
+        width: 15%;
+        flex: 0 0 auto;
+    }
+}
+
 .marca-card p {
     text-align: center;
     font-weight: var(--fonte-weight-500);
@@ -149,16 +156,31 @@
 
 .case-container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 18px;
 }
 
+@media (min-width: 1024px) {
+    .case-container {
+        width: 100%;
+        flex-direction: row;
+    }
+}
+
 .case-container-conteudo {
+    width: 100%;
     background-color: var(--cor-cinza-medio);
     border-radius: 8px;
     overflow: hidden;
+}
+
+@media (min-width: 1024px) {
+    .case-container-conteudo {
+        flex: 1 1 0;
+    }
 }
 
 .case-info {
@@ -293,22 +315,29 @@
     border-radius: 8px;
 }
 
+@media (min-width: 1024px) {
+    .certificado {
+        width: 30%;
+        flex: 0 0 auto;
+    }
+}
+
+
+
 .certificado-info {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    flex: 1;
 }
 
 .certificado-icone {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     padding: 10px;
     background: var(--cor-verde-escuro);
-    flex: 1;
+    text-align: center;
 }
 
 .certificado-icone svg {
@@ -348,6 +377,14 @@
 .client {
     display: flex;
     gap: 30px;
+
+}
+
+@media (min-width: 1024px) {
+    .client {
+        width: 47%;
+        flex: 0 0 auto;
+    }
 }
 
 .client-foto {
@@ -408,6 +445,14 @@
     padding: 30px;
     border-radius: 8px;
     background-color: var(--cor-cinza-medio);
+}
+
+@media (min-width: 1024px) {
+    .services {
+        width: 30%;
+        flex: 0 0 auto;
+        gap: 20px;
+    }
 }
 
 .services-icone {
@@ -475,6 +520,13 @@
     overflow: hidden;
 }
 
+@media (min-width: 1024px) {
+    .post {
+        width: 30%;
+        flex: 0 0 auto;
+    }
+}
+
 .post-texto {
     display: flex;
     flex-direction: column;
@@ -517,8 +569,18 @@
 .get-formulario {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 14px;
 }
+
+@media (min-width: 1024px) {
+    .get-formulario {
+        align-items: center;
+
+    }
+}
+
+
 
 .get-formulario input,
 .get-formulario textarea {
@@ -526,6 +588,14 @@
     border: 1px solid #444;
     background: var(--cor-cinza-medio);
     border-radius: 4px;
+}
+
+@media (min-width: 1024px) {
+
+    .get-formulario input,
+    .get-formulario textarea {
+        width: 30%;
+    }
 }
 
 .get-formulario textarea {
@@ -556,7 +626,7 @@
     gap: 32px;
 }
 
-.contact > h2 {
+.contact>h2 {
     font-size: 23px;
     color: var(--cor-branco);
     font-weight: var(--fonte-weight-300);
@@ -593,13 +663,15 @@
     gap: 30px;
 }
 
-.rodape > p {
+
+
+.rodape>p {
     color: var(--cor-cinza-claro);
     font-size: 16px;
     text-align: center;
 }
 
-.rodape > p > strong {
+.rodape>p>strong {
     font-weight: var(--fonte-weight-200);
     color: lightseagreen;
 }
@@ -609,6 +681,12 @@
     flex-wrap: wrap;
     padding: 0 30px;
     gap: 16px;
+}
+
+@media (min-width: 1024px) {
+    .rodape-redes {
+        justify-content: center;
+    }
 }
 
 .rodape-redes-icone {
