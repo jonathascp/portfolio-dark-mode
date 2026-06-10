@@ -16,15 +16,16 @@
     transition: 600ms ease;
 }
 
-.secao.show {
-    opacity: 1;
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
 }
 
-header {
-    width: 100%;
-    position: fixed;
-    z-index: 200;
-    padding: 20px 0;
+.secao.show {
+    opacity: 1;
 }
 
 .cabecalho-menu-lista {
@@ -53,10 +54,28 @@ header {
     gap: 45px;
 }
 
-.cabecalho-lista-menu nav {
+.cabecalho-lista-menu-mobile {
+    display: none;
     width: 100%;
-    z-index: 993;
+    animation: menu-animacao 400ms ease;
 }
+
+.menu-ativado {
+    display: block;
+}
+
+@keyframes menu-animacao {
+    from {
+        opacity: 0;
+        max-height: 0;
+    }
+
+    to {
+        opacity: 1;
+        max-height: 500px;
+    }
+}
+
 
 .cabecalho-container {
     display: flex;
@@ -70,7 +89,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10px;
+    padding: 20px 10px;
 }
 
 @media (min-width: 1024px) {
@@ -85,6 +104,7 @@ header {
     left: 20px;
     border: none;
 }
+
 
 .lista-menu {
     display: flex;

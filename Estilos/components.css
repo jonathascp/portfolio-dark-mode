@@ -4,7 +4,7 @@
 }
 
 .header-destaque {
-    background: var(--cor-fundo-cinza-escuro);
+    background: var(--cor-cinza-medio);
 }
 
 .botao-menu {
@@ -21,7 +21,7 @@
 
 
 .fundo-cinza-medio {
-    background-color: var(--cor-cinza-escuro);
+    background-color: var(--cor-cinza-medio);
 }
 
 .hero {

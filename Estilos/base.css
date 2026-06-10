@@ -8,10 +8,6 @@
     
 }
 
-body {
-    background-color: var(--cor-fundo-cinza-escuro);
-}
-
 button {
     background: none;
     border: none;
