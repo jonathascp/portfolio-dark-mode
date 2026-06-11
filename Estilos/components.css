@@ -3,6 +3,11 @@
     fill: #fff;
 }
 
+.secao.show {
+    opacity: 1;
+}
+
+
 .header-destaque {
     background: var(--cor-cinza-medio);
 }
@@ -19,6 +24,9 @@
     font-size: 18px;
 }
 
+.cor-cinza-escuro {
+    background-color: var(--cor-cinza-escuro);
+}
 
 .fundo-cinza-medio {
     background-color: var(--cor-cinza-medio);

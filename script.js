@@ -4,6 +4,7 @@ const menu = document.querySelector(".cabecalho-lista-menu-mobile");
 const btnMenu = document.querySelector(".botao-menu");
 const cabecalho = document.querySelector(".cabecalho-container");
 const body = document.querySelector("body");
+
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
